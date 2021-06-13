@@ -368,4 +368,18 @@ width: 95%;
 .last-page-links-true p{
 	font-size: 11px;
 }
+}
+@media (max-width: 480px) {
+     .full-question {
+	width: 100%;
+}
+.quetion2{
+    	width: 100%;
+    }
+    .quetion3{
+    	width: 100%;
+    }
+    .quetion4{
+	width: 100%;
+}
 }	
