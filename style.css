@@ -253,6 +253,7 @@
 }	
 .form-input ul li{
 display: flex;
+align-items: center;
 margin-bottom: 15px;
 width: 69%;
 }
@@ -322,6 +323,21 @@ color: #888888;
 .full-question {
 	width: 95%;
 }
+.last-page-full {
+width: 95%;
+}	
+.setup-text h2 {
+   font-size: 20px;
+}	
+.form-input ul li p {
+   font-size: 15px;
+}	
+.setup-text p {
+   font-size: 11px;
+}	
+.form-input ul li input::placeholder{
+	font-size: 15px;
+}	
 .quetion4{
 	width: 95%;
 }
