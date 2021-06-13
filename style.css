@@ -8,7 +8,7 @@
 }
 @font-face{
 			font-family: 'CirceRounded';
-			src:url(font/CirceRounded-Regular4.ttf);
+			src:url(font/CirceRounded-Regular.ttf);
 		}
 .full-question{
 	width: 450px;
@@ -63,6 +63,7 @@
 .questions ul li p{
 	font-size: 22px;
 	color: #F51C2B;
+	font-family: 'CirceRounded';
 	padding: 10px 15px;
 }
 .questions-2{
@@ -76,7 +77,7 @@
 	flex-wrap: wrap;
 }
 .questions-2 ul li{
-	box-shadow: 3px 3px 5px rgba(186, 186, 186, 0.2), -3px -3px 5px rgba(186, 186, 186, 0.2);
+	box-shadow: 3.07492px 3.07492px 3.68991px rgba(186, 186, 186, 0.2), -3.07492px -3.07492px 3.68991px rgba(186, 186, 186, 0.2);
 	background: #FFFFFF;
 	width: 30%;
 	margin-bottom: 30px;
@@ -98,14 +99,13 @@
 .question-button button{
 	width: 100%;
 	box-shadow: -3px -3px 5px 0px #BABABA33;
-
-box-shadow: 0px 4px 4px 0px #00000040;
-
+    box-shadow: 0px 4px 4px 0px #00000040;
 	background: #F51C2B;
 	height: 50px;
 	border-radius: 8px;
 }
 .question-button button p{
+	font-family: 'CirceRounded';
 	color: #ffffff;
 	font-size: 26px;
 }	
