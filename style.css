@@ -251,6 +251,9 @@
 .form-input ul li input::placeholder{
 	font-size: 20px;
 }	
+.last-page-links-true{
+	margin-top: 18px;
+}
 .form-input ul li{
 display: flex;
 align-items: center;
@@ -323,6 +326,13 @@ color: #888888;
 .full-question {
 	width: 95%;
 }
+.questions-2 ul li {
+    width: 46%;
+}	
+.questions-2 ul li p {
+    font-size: 15px;
+    padding: 0px;
+}	
 .last-page-full {
 width: 95%;
 }	
@@ -351,5 +361,7 @@ width: 95%;
     .quetion3{
     	width: 95%;
     }
-
+.last-page-links-true p{
+	font-size: 11px;
+}
 }	
