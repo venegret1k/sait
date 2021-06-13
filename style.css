@@ -112,9 +112,25 @@
 .question-number{
 	width: 73.91304347826087%;
 	margin-bottom: 30px;
+	position: relative;
 }
-.question-number img{
-	width: 100%;
+.question-number>img{
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    transform: translate(0%, -50%);
+    top: 50%;
+} 
+.question-number ul{
+	display: flex;
+	justify-content: space-between;
+}
+.question-number ul li img{
+	width: 30px;
+	position: relative;
+	z-index: 4;
+	height: 30px;
 }	
 @media (max-width: 960px) {
 	.full-question{
